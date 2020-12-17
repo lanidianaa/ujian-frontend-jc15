@@ -1,0 +1,83 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "lan1@mail.com",
+      "password": "abc123"
+    },
+    {
+      "id": 2,
+      "email": "dia1@mail.com",
+      "password": "asd123"
+    },
+    {
+      "email": "abc@aaa.co",
+      "password": "abc123",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Apel",
+      "categoryID": 1,
+      "price": 15000,
+      "stock": 15,
+      "image": "https://faktualnews.co/images/2019/02/apel-1-1280x720.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Durian",
+      "categoryID": 3,
+      "price": 100000,
+      "stock": 10,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjApLNbT0ebMQT05GOfawvzhr7bsxQwnBJtQ&usqp=CAU"
+    },
+    {
+      "id": 4,
+      "name": "Jeruk",
+      "categoryID": 2,
+      "price": 15000,
+      "stock": 40,
+      "image": "https://cdns.klimg.com/dream.co.id/resized/640x480/news/2019/10/14/119889/8-manfaat-buah-jeruk-bagi-kesehatan-rasakan-kesegarannya-191014y.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Anggur",
+      "categoryID": 2,
+      "price": 50000,
+      "stock": 11,
+      "image": "https://dinkes.bogorkab.go.id/wp-content/uploads/2017/04/buah-anggur-300x226.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Kiwi",
+      "categoryID": 4,
+      "price": 30000,
+      "stock": 3,
+      "image": "https://cdn.akurat.co/images/uploads/images/akurat_20171106095106_1m8747.jpg"
+    }
+  ],
+  "cart": [
+    {
+      "name": "Apel",
+      "categoryID": 1,
+      "image": "https://faktualnews.co/images/2019/02/apel-1-1280x720.jpg",
+      "price": 15000,
+      "qty": 1,
+      "userID": 3,
+      "id": 1
+    },
+    {
+      "name": "Durian",
+      "categoryID": 3,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjApLNbT0ebMQT05GOfawvzhr7bsxQwnBJtQ&usqp=CAU",
+      "price": 100000,
+      "qty": 3,
+      "userID": 3,
+      "id": 2
+    }
+  ],
+  "transaction": [],
+  "history": []
+}
